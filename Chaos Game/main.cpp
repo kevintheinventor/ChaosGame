@@ -113,6 +113,8 @@ int main()
         ****************************************
         */
         window.clear();
+        //display the instruction text
+        window.draw(instructionText);
         //display the 3 intial points of verticies as blue
         for (int i = 0; i < vertices.size(); i++)
         {
